@@ -1,0 +1,73 @@
+/* Salaam School — responsive rules. */
+@media (max-width: 1360px) {
+  .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .class-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .chart-grid { grid-template-columns: 1fr; }
+  .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .grid-5 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 1100px) {
+  .grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .quick-grid { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media (max-width: 900px) {
+  .login-page { grid-template-columns: 1fr; }
+  .login-art { min-height: 300px; padding: 28px; }
+  .login-hero h1 { font-size: 2rem; }
+  .login-features { display: none; }
+  .login-panel { padding: 26px 18px 44px; }
+  .login-card { width: min(440px, 100%); }
+  .grid-2, .grid-3, .grid-4, .grid-5 { grid-template-columns: 1fr; }
+  .class-grid { grid-template-columns: 1fr; }
+  .form-grid { grid-template-columns: 1fr; }
+  .kv { grid-template-columns: 1fr; }
+  .hero-card { padding: 19px; }
+  .hero-name { font-size: 20px; }
+  .hero-orb { width: 60px; height: 60px; border-radius: 18px; }
+  .hero-orb svg { width: 29px; height: 29px; }
+  .page-head { margin-bottom: 16px; }
+  .page-head h1 { font-size: 1.55rem; }
+  .topbar-title .title { font-size: 13px; }
+  .user-chip .meta { display: none; }
+  .user-chip { padding: 3px; border: 0; background: transparent; }
+  .quick-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 620px) {
+  .stats-grid { grid-template-columns: 1fr; }
+  .page { padding: 16px 13px 40px; }
+  .topbar { padding: 9px 12px; gap: 8px; }
+  .topbar-title .crumb { display: none; }
+  .topbar-title .title { max-width: 130px; }
+  .topbar-actions { gap: 5px; }
+  .icon-btn { width: 33px; height: 33px; }
+  .page-head h1 { font-size: 1.35rem; }
+  .page-actions { width: 100%; }
+  .page-actions .btn { flex: 1; }
+  .card-body { padding: 15px; }
+  .card-head { padding: 13px 15px; }
+  .search { min-width: 0; width: 100%; }
+  .modal { max-height: 92vh; border-radius: 16px; }
+  .modal-body { padding: 15px; }
+  .modal-head, .modal-foot { padding: 13px 15px; }
+  .demo-grid { grid-template-columns: 1fr; }
+  .ai-panel { left: 12px; bottom: 80px; width: calc(100vw - 24px); }
+  .ai-fab { left: 14px; bottom: 16px; width: 48px; height: 48px; }
+  .certificate { padding: 18px; border-width: 4px; }
+  .certificate .cert-title { font-size: 18px; }
+  .certificate .cert-name { font-size: 21px; }
+  .certificate .cert-head { flex-direction: column; align-items: flex-start; }
+  .pagination { justify-content: center; }
+  .notif-dropdown { width: min(320px, calc(100vw - 20px)); left: -50px; }
+}
+
+@media (max-width: 400px) {
+  .topbar-title .title { max-width: 95px; }
+  .stat-value { font-size: 23px; }
+  .hero-actions .btn { width: 100%; }
+  .countdown { gap: 4px; }
+  .cd-unit { min-width: 44px; padding: 6px 4px; }
+  .cd-unit b { font-size: 16px; }
+}
