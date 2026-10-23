@@ -1,0 +1,14 @@
+{
+  "name": "salaam-school",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "نظام إدارة مدرسة السلام — واجهة عربية RTL محلية",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
